@@ -1,0 +1,33 @@
+body{
+    background-color: aquamarine;
+}
+.container{
+    border:2px solid black;
+    width: 300px;
+    font-size: 20px;
+    margin: 150px auto;
+    text-align:center;
+    background-color: white;
+    border-radius: 20px;
+}
+.result{
+    background-color: blanchedalmond;
+    padding: 15px 15px;
+    text-align: end;
+    margin-bottom: 10px;
+}
+.option-group{
+    margin-bottom: 20px;
+}
+#btn{
+    margin-bottom: 10px;
+}
+input{
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+.error{
+    font-size: 15px;
+    color: red;
+}
+

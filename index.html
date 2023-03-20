@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Calculator</h2>
+
+        <div class="result" id="result">
+            0000
+        </div>
+        <div class="option-group">
+            <label for="firstnumber">First number:</label>
+            <br>
+            <input type="number"  id="firstnumber" placeholder="Enter number...">
+            <div class="error" id="firsterror">
+                Required!
+            </div>
+        </div>
+        <div class="option-group">
+            <label for="secondnumber">Second number:</label>
+            <br>
+            <input type="number" id="secondnumber" placeholder="Enter number...">
+            <div class="error" id="seconderror">
+                Required!
+            </div>
+        </div>
+        <div class="option-group">
+            <label for="operation">Operation:</label>
+            <br>
+            <select id="operation">
+                <option value="empty">Choose operation</option>
+                <option value="add">+</option>
+                <option value="minus">-</option>
+                <option value="mutiply">*</option>
+                <option value="divide">/</option>
+            </select>
+            <div class="error" id="operationerror">
+                Required!
+            </div>
+        </div>
+        <button type="button" id="btn">Calculate</button>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
